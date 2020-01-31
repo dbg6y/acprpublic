@@ -1,0 +1,39 @@
+{
+  "RUAS": {
+    "NCOM_RUAS": 10,
+    "UPRT_RUAS": 0.1,
+    "FCIN_RUAS": 0.8,
+    "SANC_RUAS": 10
+  },
+  "COMM": {
+    "NMEM_COMM": 50,
+    "UPRT_COMM": 0.02,
+    "FCIN_COMM": 0.9,
+    "ALPH_COMM": 0.6,
+    "BETA_COMM": 0.2,
+    "GAMM_COMM": 10,
+    "HPAR_COMM": 0.33,
+    "TPAR_COMM": -150,
+    "GPAR_COMM": -10,
+    "RINT_COMM": 50,
+    "RMAX_COMM": 200,
+    "RUMX_COMM": "2 * RMAX_COMM / 3",
+    "KPAR_COMM": 2,
+    "QPAR_COMM": 1
+  },
+  "MEMB": {
+    "MPAR_MEMB": 3,
+    "EPAR_MEMB": "0.483 / NMEM_COMM",
+    "WPAR_MEMB": 15
+  },
+  "RSCE": {
+    "FLMN_RSCE": "70 * NCOM_RUAS",
+    "FLSD_RSCE": "10 * NCOM_RUAS"
+  },
+  "SIMU": {
+    "NMBR_SIMU": 53,
+    "NSTP_SIMU": 10000,
+    "NRUN_SIMU": 10000
+  },
+  "DBSE_FILE": "results/acprresult.db"
+}
